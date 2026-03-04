@@ -20,5 +20,5 @@ autopep8 --in-place code/myfile.py
 
 
  mypy .                                                                                                                                                                                                                            
-  pylint $(git ls-files '*.py') --fail-under=8.0                                                                                                                                                                                    
-  pytest --cov=. --cov-fail-under=80          
+ pylint $(git ls-files '*.py') --fail-under=8.0                                                                                                                                                                                    
+ pytest --cov=. --cov-fail-under=80          
