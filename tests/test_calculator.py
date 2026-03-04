@@ -1,6 +1,6 @@
 """Unit tests for the calculator module."""
 
-from code.calculator import add
+from src.calculator import add
 
 
 def test_add_positive_numbers() -> None:
