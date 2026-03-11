@@ -1,6 +1,6 @@
 """Unit tests for the calculator module."""
 
-from src.calculator import add
+from src.calculator import add, diff
 
 
 def test_add_positive_numbers() -> None:
@@ -9,7 +9,7 @@ def test_add_positive_numbers() -> None:
 
 def test_diff_positive_numbers() -> None:
     """Test adding two positive numbers."""
-    assert add(3, 1) == 2
+    assert diff(3, 1) == 2
 
 
 def test_add_negative_numbers() -> None:
